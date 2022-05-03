@@ -1,0 +1,4 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+de/iwconsulting/stay_healthy/BuildConfig.java
+ de.iwconsulting.stay_healthy.BuildConfig
