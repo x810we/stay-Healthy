@@ -68,7 +68,7 @@ class _DetailPageState extends State<DetailPage> {
         Text(widget.headline, style: const TextStyle(fontSize: 48.0, color: Colors.brown)),
         TrackingElement(color: const Color(0xFF8BEF11), iconData: Icons.directions_run, unit: 'm', max: 5000, daysInPast: widget.daysInPast),
         TrackingElement(color: const Color(0xFF3B53EA), iconData: Icons.local_drink, unit: 'ml', max: 3000, daysInPast: widget.daysInPast),
-        TrackingElement(color: const Color(0x7FC42541), iconData: Icons.fastfood, unit: 'kcal', max: 1800, daysInPast: widget.daysInPast),
+        TrackingElement(color: const Color(0x77C42541), iconData: Icons.fastfood, unit: 'kcal', max: 1800, daysInPast: widget.daysInPast),
       ],),
     );
   }
