@@ -1,4 +1,4 @@
-#Mon Apr 25 22:32:00 CEST 2022
+#Wed May 04 20:44:55 CEST 2022
 base.0=/Users/x810we/StudioProjects/stay_healthy/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

@@ -12,10 +12,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo2',
+      title: 'Flutter Demo',
       theme: ThemeData(
         primarySwatch: Colors.blue,
-        scaffoldBackgroundColor: const Color(0xFF292929),
+        //scaffoldBackgroundColor: const Color(0xFF292929),
       ),
       home: const MyHomePage(title: 'Flutter Demo Home Page'),
     );
@@ -65,10 +65,10 @@ class _DetailPageState extends State<DetailPage> {
     return Padding(
       padding: const EdgeInsetsDirectional.fromSTEB(0.0, 48, 0.0, 32.0),
       child: Column(children:  [
-        Text(widget.headline, style: const TextStyle(fontSize: 48.0, color: Colors.white)),
+        Text(widget.headline, style: const TextStyle(fontSize: 48.0, color: Colors.brown)),
         TrackingElement(color: const Color(0xFF8BEF11), iconData: Icons.directions_run, unit: 'm', max: 5000, daysInPast: widget.daysInPast),
         TrackingElement(color: const Color(0xFF3B53EA), iconData: Icons.local_drink, unit: 'ml', max: 3000, daysInPast: widget.daysInPast),
-        TrackingElement(color: const Color(0xFFC42541), iconData: Icons.fastfood, unit: 'kcal', max: 1800, daysInPast: widget.daysInPast),
+        TrackingElement(color: const Color(0x7FC42541), iconData: Icons.fastfood, unit: 'kcal', max: 1800, daysInPast: widget.daysInPast),
       ],),
     );
   }
@@ -130,10 +130,10 @@ class _TrackingElementState extends State<TrackingElement> {
           Padding(
             padding: const EdgeInsetsDirectional.fromSTEB(32.0, 64.0, 32.0, 24.0),
             child: Row(children: <Widget>[
-              Icon(widget.iconData, color: Colors.white70, size: 50,),
+              Icon(widget.iconData, color: Colors.black38, size: 50,),
               Text(
                   '$_counter / ${widget.max.toInt()} ${widget.unit}',
-                  style: const TextStyle(color: Colors.white70, fontSize: 32)
+                  style: const TextStyle(color: Colors.black54, fontSize: 32)
               ),
             ],),
           ),
